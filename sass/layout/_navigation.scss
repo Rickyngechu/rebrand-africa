@@ -1,0 +1,44 @@
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100rem;
+    margin: 3rem auto;
+
+
+    &__icon {
+        padding: 1.5rem;
+
+        &--text {
+            font-size: 3rem;
+        }
+    }
+
+    &__list {
+        padding: 1.5rem;
+        list-style: none;
+
+    }
+
+    &__link:link,
+    &__link:visited {
+        padding: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.6rem;
+        transition: all .2s;
+        color: $color-grey-1;
+    }
+
+    &__link:hover {
+        color: $color-primary-light;
+    }
+
+    &__link:active {
+        background-color: $color-primary-dark;
+        color: $color-grey-1;
+    }
+
+}

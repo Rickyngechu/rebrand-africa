@@ -1,0 +1,41 @@
+.header {
+    height: 110vh;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 1) 52%),
+        url(../../img/hero-1.jpg);
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100rem;
+
+    &__text {
+        font-size: 1.8rem;
+        text-align: left;
+        display: block;
+        width: 70%;
+        line-height: 2.4rem;
+    }
+}
+
+.main-heading {
+    font-size: 5.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    &__1 {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    &__2 {
+        display: block;
+    }
+}

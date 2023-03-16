@@ -1,0 +1,21 @@
+.about {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100rem;
+    margin: 2rem auto;
+
+    &__text {
+        display: block;
+        color: #fff;
+        line-height: 2.2rem;
+        font-size: 1.6rem;
+        width: 50%;
+    }
+}
+
+.secondary-heading {
+    font-size: 6rem;
+    color: #fff;
+}

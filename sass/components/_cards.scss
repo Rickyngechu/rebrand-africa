@@ -1,0 +1,23 @@
+.row {
+    width: 90rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.col-1-of-3 {
+    width: 90%;
+    margin-right: 2rem;
+    border: 2px solid $color-primary-dark;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 1.5rem $color-primary-light;
+}
+
+.col-1-of-3 img {
+    width: 100%;
+}
+
+.col-1-of-3 p {
+    font-size: 1.5rem;
+    text-align: center;
+}
